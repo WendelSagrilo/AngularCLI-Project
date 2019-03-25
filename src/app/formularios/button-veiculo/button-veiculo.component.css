@@ -1,0 +1,33 @@
+.box-veiculo{
+    margin-bottom: 20px
+}
+
+.btn-veiculo {
+    background: #d8d8d8 !important;
+    width: 15% !important;
+    margin: 0 5px !important;
+    line-height: 60px !important;
+    cursor: pointer !important; 
+    box-shadow: 2px 2px 6px !important;
+}
+
+.btn-selecionado{
+    background: linear-gradient(to bottom, #62c462, #51a351) !important;
+    box-shadow: none !important;   
+    transition: 100ms;
+}
+
+.img-veiculo{
+    width: 100% !important;
+    height:100% !important;
+    cursor: pointer;
+}
+
+
+.msg-veiculo{
+    background: #16477E !important;
+    color:white !important;
+    text-align: center !important;
+    margin:20px 120px !important;
+}
+

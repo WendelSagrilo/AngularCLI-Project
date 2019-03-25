@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'tgt-rota',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
