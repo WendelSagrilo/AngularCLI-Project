@@ -1,27 +1,46 @@
 <nav class="nav-rota">
     <div class="box-nav container d-flex align-items-center">
-        <span class="">Rotas Planejadas</span>
-        <button class="btn-gerar-rota ml-auto" mat-raised-button>Gerar Rota</button>
+        <span class="">Title APP</span>
+        <button class="btn-gerar-rota ml-auto" mat-raised-button>Enviar</button>
 
     </div>
 </nav>
 <section class="container box-dados-veiculo ">
-    <h4>Dados do Veículo</h4>
-    <hr>
+    <mat-accordion>
 
-    <div class="container">
-        <div class="d-flex justify-content-center">
-            <mat-form-field class="input-veiculo">
-                <input matInput placeholder="Combustível(1L-R$)">
-            </mat-form-field>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <h4>Dados</h4>
+                <hr>
 
-            <mat-form-field class="input-veiculo">
-                <input matInput placeholder="Consumo(Km/L)">
-            </mat-form-field>
-        </div>
+            </mat-expansion-panel-header>
 
-        <tgt-button-veiculo></tgt-button-veiculo>
-    </div>
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <mat-form-field class="input-veiculo">
+                        <input matInput placeholder="Valor">
+                    </mat-form-field>
+                    <mat-form-field class="input-veiculo">
+                        <input matInput placeholder="Quantidade">
+                    </mat-form-field>
+                </div>
+
+                <section class="container">
+                    <div class="d-flex justify-content-around">
+                        <tgt-list-button-veiculo></tgt-list-button-veiculo>
+                    </div>
+                    <div id='descricao' class="msg-veiculo">Articuno</div>
+                </section>
+            </div>
+
+
+        </mat-expansion-panel>
+
+
+    </mat-accordion>
+
+
+
 
 </section>
 
